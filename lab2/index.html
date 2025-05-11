@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4">
+    <a class="navbar-brand" href="#">LearnOnline</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="text-center bg-dark-subtle text-white py-5">
+    <div class="container">
+      <h1 class="display-4">Start Learning Today!</h1>
+      <p class="lead">Access hundreds of courses from top instructors and start your learning journey now.</p>
+      <a href="#courses" class="btn btn-light btn-lg mt-3">Browse Courses</a>
+    </div>
+  </section>
+
+  <section id="home" class="py-5">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-4 mb-4">
+          <div class="p-4 border rounded">
+            <h4 class="mt-3">Programming</h4>
+            <p>Learn coding in PHP, JavaScript, and more.</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="p-4 border rounded">
+            <h4 class="mt-3">Design</h4>
+            <p>Master UX/UI, graphic design, and tools like Figma.</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="p-4 border rounded">
+            <h4 class="mt-3">Marketing</h4>
+            <p>Learn SEO, social media marketing, and branding.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="courses" class="py-5 bg-dark-subtle">
+    <div class="container">
+      <h2 class="text-center mb-4">Featured Courses</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-body text-center">
+              <img src="./assets/course.png" class="rounded-circle col-6 mb-3" alt="course">
+              <h5 class="card-title">Web Development PHP</h5>
+              <p class="card-text">by Adel</p>
+              <a href="#" class="btn btn-primary">Enroll</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-body text-center">
+              <img src="./assets/course.png" class="rounded-circle col-6 mb-3" alt="course">
+              <h5 class="card-title">Digital Marketing</h5>
+              <p class="card-text">by Ahmed</p>
+              <a href="#" class="btn btn-primary">Enroll</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-body text-center">
+              <img src="./assets/course.png" class="rounded-circle col-6 mb-3" alt="course">
+              <h5 class="card-title">Graphic Design</h5>
+              <p class="card-text">by Ali</p>
+              <a href="#" class="btn btn-primary">Enroll</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">What Our Students Say</h2>
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active text-center">
+            <img src="./assets/user.png" class="rounded-circle col-1 mb-3" alt="Student">
+            <h5>Adel.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolor numquam deleniti!</p>
+          </div>
+          <div class="carousel-item text-center">
+            <img src="./assets/user.png" class="rounded-circle col-1 mb-3" alt="Student">
+            <h5>Ahmed.</h5>
+            <p>“Great instructors and easy to follow lessons.”</p>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 bg-dark-subtle">
+    <div class="container">
+      <h2 class="text-center mb-4">FAQs</h2>
+      <div class="accordion" id="faqAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit fugit minima dolorem harum numquam, nulla
+              quidem!
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam eligendi
+              tenetur cumque placeat consectetur ipsa.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi quisquam nesciunt excepturi?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae delectus natus
+              nulla.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quam optio sed!
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex non rem nisi.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="about" class="bg-dark text-white py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>About Us</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident earum ab consectetur?</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Home</a></li>
+            <li><a href="#" class="text-white">Courses</a></li>
+            <li><a href="#" class="text-white">About</a></li>
+          </ul>
+        </div>
+        <div id="contact" class="col-md-4">
+          <h5>Contact</h5>
+          <p>Email: test@adel.com</p>
+          <p>Phone: +123456789</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
